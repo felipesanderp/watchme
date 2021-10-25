@@ -2,7 +2,7 @@ import { Button } from './Button';
 
 import '../styles/sidebar.scss';
 
-import { GenreResponseProps } from '../App';
+import { GenreResponseProps } from '../types';
 
 interface SideBarProps {
   genres: GenreResponseProps[];

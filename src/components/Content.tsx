@@ -2,7 +2,7 @@ import { MovieCard } from '../components/MovieCard';
 
 import '../styles/content.scss';
 
-import { MovieProps, GenreResponseProps } from '../App'
+import { MovieProps, GenreResponseProps } from '../types'
 interface ContentProsp {
   movies: MovieProps[];
   selectedGenre: GenreResponseProps;
