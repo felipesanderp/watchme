@@ -3,12 +3,12 @@ import { MovieCard } from '../components/MovieCard';
 import '../styles/content.scss';
 
 import { MovieProps, GenreResponseProps } from '../types'
-interface ContentProsp {
+interface ContentProps {
   movies: MovieProps[];
   selectedGenre: GenreResponseProps;
 }
 
-export function Content({ movies, selectedGenre }: ContentProsp) {
+export function Content({ movies, selectedGenre }: ContentProps) {
   return (
     <div className="container">
       <header>
